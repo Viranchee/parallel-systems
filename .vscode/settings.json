@@ -1,0 +1,5 @@
+{
+    // "C_Cpp.default.compileCommands": "build/compile_commands.json",
+    // "C_Cpp.default.compilerPath": "/opt/homebrew/bin/mpicc",
+    // "C_Cpp.intelliSenseEngine": "default",
+}
