@@ -1,4 +1,16 @@
 {
+    "sync-rsync.showProgress": true,
+    "sync-rsync.onSave": true,
+    "sync-rsync.executableShell": "fish",
+    "sync-rsync.exclude": [
+        ".git",
+        ".vscode",
+        "build",
+        ".DS_Store",
+        ".cache",
+    ],
+    "sync-rsync.remote": "vcl:/home/vlotia/parallel-systems",
+    "sync-rsync.flags": "-avz",
     // "C_Cpp.default.compileCommands": "build/compile_commands.json",
     // "C_Cpp.default.compilerPath": "/opt/homebrew/bin/mpicc",
     // "C_Cpp.intelliSenseEngine": "default",
