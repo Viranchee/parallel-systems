@@ -3,7 +3,6 @@
     "sync-rsync.onSave": true,
     "sync-rsync.executableShell": "fish",
     "sync-rsync.exclude": [
-        ".git",
         ".vscode",
         "build",
         ".DS_Store",
