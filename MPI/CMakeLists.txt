@@ -20,6 +20,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE BOOL "Generate compile commands")
 
 # find_package(MPI REQUIRED)
 include(FindMPI)
+include(FindOpenMP)
+
 
 # include_directories(/usr/local/include)
 include_directories(${MPI_INCLUDE_PATH})
