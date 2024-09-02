@@ -7,9 +7,18 @@
         "build",
         ".DS_Store",
         ".cache",
+        "cuda-samples",
     ],
     "sync-rsync.remote": "vcl:/home/vlotia/parallel-systems",
     "sync-rsync.flags": "-avz",
+    "sync-rsync.options": [
+        [
+            "progress"
+        ],
+    ],
+    "sync-rsync.args": [
+        "--exclude='.cuda*'",
+    ]
     // "C_Cpp.default.compileCommands": "build/compile_commands.json",
     // "C_Cpp.default.compilerPath": "/opt/homebrew/bin/mpicc",
     // "C_Cpp.intelliSenseEngine": "default",
